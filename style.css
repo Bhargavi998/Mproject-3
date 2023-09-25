@@ -1,0 +1,63 @@
+ /* Style the table */
+ *{
+    margin: 0;
+   
+ }
+ body{
+    background-color: black;
+ }
+ .heading{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(225, 200, 254);
+ }
+ .listcontainer{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+ }
+ .listcontainer label {
+    color: rgb(228, 232, 123);
+     
+ }
+ .listcontainer option{
+    color: rgb(215, 242, 221);
+    border: 1px solid rgb(166, 235, 240);
+   
+ }
+ .listcontainer ol{
+    margin-top: 1rem;
+ }
+ 
+ table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    
+}
+
+/* Style the table header */
+th {
+    background-color: #bcdbe4;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style the table cells */
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    background-color: rgb(105, 66, 8);
+    color: white;
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+    background-color: hsl(265, 26%, 23%);
+}
+h1{
+    color: white;
+    text-align: center;
+}
